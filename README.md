@@ -1,4 +1,4 @@
-# 📘 Estudo Dirigido Python 101 – Variáveis, Operadores e Expressões
+# 📘 Estudo Dirigido Python 101 – Aula 1: Variáveis, Operadores e Expressões
 
 ## Módulo 1
 ### Professor, Dr. Vinícius Costa Amador 
@@ -304,7 +304,7 @@ print("Altura registrada: " + str(altura))
 
 ---
 
-# 📘 Estudo Dirigido Python 101 – Estruturas de Decisão e Expressões Condicionais
+# 📘 Estudo Dirigido Python 101 – Aula 2: Estruturas de Decisão e Expressões Condicionais
 
 Professor, Vinícius Costa Amador
 
