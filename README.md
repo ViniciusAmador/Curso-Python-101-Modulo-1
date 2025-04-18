@@ -298,6 +298,123 @@ print("Altura registrada: " + str(altura))
 
 ---
 
-**Parabéns, você chegou ao fim do Estudo Dirigido Python 101 - Parte 1 🎉**
+**Parabéns, você chegou ao fim do Estudo Dirigido Python 101 - Algoritmos Sequenciais ou de Estrutura Linear: Variáveis, Operadores e Expressões 🎉**
 
 **Vá para o Exercício 1**
+
+---
+
+# 📘 Estudo Dirigido Python 101 – Estruturas de Decisão e Expressões Condicionais
+
+Professor, Vinícius Costa Amador
+
+---
+
+## 🧭 6. Estruturas de Decisão em Python
+
+Estruturas de decisão permitem ao programa **escolher caminhos diferentes** com base em condições.
+
+### ✅ Decisão Simples (if)
+
+```python
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade")
+```
+
+### ✅ Decisão Composta (if/else)
+
+```python
+idade = 16
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+```
+
+### ✅ Decisão Encadeada (if/elif/else)
+
+```python
+nota = 7
+if nota >= 9:
+    print("Excelente")
+elif nota >= 7:
+    print("Bom")
+elif nota >= 5:
+    print("Regular")
+else:
+    print("Reprovado")
+```
+
+### 🧠 Expressões Condicionais
+
+São usadas dentro dos `if`, `elif` e `else`. Comparam variáveis e retornam True ou False.
+
+```python
+x = 10
+y = 5
+if x > y:
+    print("x é maior que y")
+```
+
+---
+
+### ✅ Decisão Aninhada (if dentro de if)
+
+Decisões aninhadas ocorrem quando usamos um `if` dentro de outro `if`, permitindo verificar mais de uma condição de forma hierárquica.
+
+```python
+idade = 20
+possui_carteira = True
+
+if idade >= 18:
+    if possui_carteira:
+        print("Pode dirigir")
+    else:
+        print("É maior de idade, mas não tem carteira")
+else:
+    print("Menor de idade")
+```
+
+---
+
+## ⚙️ Operador Ternário
+
+Forma reduzida de escrever `if/else` em uma linha:
+
+```python
+idade = 20
+mensagem = "Maior de idade" if idade >= 18 else "Menor de idade"
+print(mensagem)
+```
+
+---
+
+## 🔁 Uso de Operadores Lógicos nas Decisões
+
+| Operador | Exemplo          | Resultado                      |
+| -------- | ---------------- | ------------------------------ |
+| and      | x > 5 and y < 10 | True se ambos forem True       |
+| or       | x > 5 or y < 10  | True se pelo menos um for True |
+| not      | not(x > 5)       | Inverte o resultado            |
+
+```python
+idade = 22
+habilitacao = True
+
+if idade >= 18 and habilitacao:
+    print("Pode dirigir")
+```
+
+### ⚠️ Cuidados:
+
+- Sempre use identação correta após o `if`, `elif` e `else`.
+- Evite usar expressões muito longas numa única linha para manter a legibilidade.
+
+---
+
+**Parabéns, você concluiu a introdução às Algoritmos de Estruturas de Decisão para Expressões Condicionais! 🎉**
+
+Deseja seguir para estruturas de repetição?
+
+**Vá para o Exercício 2**
