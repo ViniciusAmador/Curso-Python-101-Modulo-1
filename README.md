@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/versão-1.0-blue" alt="Versão">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status do Curso">
+  <img src="https://img.shields.io/badge/feito%20com-Python%203.x-blue?logo=python&logoColor=white" alt="Feito com Python">
+  <img src="https://img.shields.io/badge/licença-MIT-green" alt="Licença">
+</p>
+
 # 🐍 python101
 ## Módulo 1
 ### Professor, Dr. Vinícius Costa Amador 
