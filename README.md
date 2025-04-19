@@ -2,7 +2,7 @@
 ## Módulo 1
 ### Professor, Dr. Vinícius Costa Amador 
 
-## 📘 Sobre o Curso | About the Course | 关于课程
+## 📍 Sobre o Curso | About the Course | 关于课程
 
 Aqui eu documento um curso de Python do **básico ao avançado**, cujo nome será **“python101”**.  
 O material tem **forte inspiração** no curso [Python for Everybody (PY4E)](https://www.py4e.com/) desenvolvido pela Universidade de Michigan e ministrado pelo professor **Charles Severance**.  
@@ -58,7 +58,7 @@ sudo apt install python3
 Para outras distribuições, consulte a documentação específica ou compile a partir do código-fonte disponível em [python.org/downloads](https://www.python.org/downloads/).
 
 
-# 📘 Aula 1: Variáveis, Operadores e Expressões
+# 📘 Aula 1: Introdução à Programação com Python: Variáveis, Operadores, Expressões e Entrada de Dados | Introduction to Programming with Python: Variables, Operators, Expressions and Input/Output | 使用 Python 编程入门：变量、运算符、表达式与输入输出
 
 ---
 
@@ -95,21 +95,46 @@ print("Erro de indentação")  # Erro
 
 ---
 
-## 📦 2. Variáveis em Python
+## 📦 2. Variáveis em Python | Variables in Python | Python 中的变量
 
-Variáveis são nomes que usamos para guardar informações na memória do computador. Em Python, você não precisa declarar o tipo da variável: ele é definido automaticamente.
+Variáveis armazenam dados em memória com nomes escolhidos pelo programador. Em Python, o tipo é atribuído automaticamente. | Variables store data in memory using names. In Python, the type is assigned automatically. | 变量使用名称在内存中存储数据，在 Python 中类型由系统自动推断。
 
-### 🎯 Boas práticas para nomear variáveis:
+### 📌 Tipos mais comuns:
 
-- Use nomes **sem espaços**. Exemplo correto: `nome_completo`
-- Evite **caracteres especiais** como `!`, `@`, `%`, etc.
-- Não comece o nome da variável com **números**.
-- Não use **palavras reservadas** do Python (ex: `if`, `print`, `for`).
-- Python diferencia letras maiúsculas e minúsculas: `idade` ≠ `Idade`.
+- `int`: números inteiros (ex.: 10, -3)
+- `float`: números com vírgula (ex.: 3.14, -2.0)
+- `str`: textos (ex.: "Olá")
+- `bool`: lógicos (ex.: True, False)
+
+### ✅ Exemplos corretos:
+
+```python
+idade = 30           # int
+altura = 1.75        # float
+nome = "Maria"       # str
+ativo = True         # bool
+```
+
+### ❌ Exemplos com erro:
+
+```python
+30 = idade           # Erro: não se pode começar com número
+nome! = "João"       # Erro: nome de variável inválido
+```
+
+---
+
+### 🎯  Boas Práticas | Best Practices | 最佳实践
+
+- Sem espaços ou símbolos especiais. | No spaces or special symbols. | 不允许空格或特殊字符。`!`, `@`, `%`, etc.
+- Não usar palavras reservadas. | Don't use reserved words. | 不要使用保留字。 (ex: `if`, `print`, `for`).
+- Python diferencia maiúsculas de minúsculas. | Python is case-sensitive. | Python 区分大小写。 `idade` ≠ `Idade`.
 
 Essas práticas ajudam a evitar erros e tornam seu código mais legível e organizado.
 
-### 📘 Manipulando strings (alfanuméricos)
+
+### 📘  Strings (Textos) | Strings (Text) | 字符串（文本）
+
 
 Strings em Python têm várias funcionalidades:
 
@@ -155,39 +180,11 @@ msg = "bom dia"
 print(msg.replace("bom", "boa"))  # boa dia
 ```
 
-### ℹ️ Casos especiais:
-
-- Nomes de variáveis não podem começar com números.
-- Não pode haver espaços ou símbolos especiais (como `!`, `@`, `%`).
-- Palavras reservadas do Python (ex: `if`, `print`, `for`) não podem ser usadas como nomes de variáveis.
-- Python é sensível a maiúsculas/minúsculas: `nome` ≠ `Nome`.
-
-### 📌 Tipos mais comuns:
-
-- `int`: números inteiros (ex.: 10, -3)
-- `float`: números com vírgula (ex.: 3.14, -2.0)
-- `str`: textos (ex.: "Olá")
-- `bool`: lógicos (ex.: True, False)
-
-### ✅ Exemplos corretos:
-
-```python
-idade = 30           # int
-altura = 1.75        # float
-nome = "Maria"       # str
-ativo = True         # bool
-```
-
-### ❌ Exemplos com erro:
-
-```python
-30 = idade           # Erro: não se pode começar com número
-nome! = "João"       # Erro: nome de variável inválido
-```
-
 ---
 
-## ➕ 3. Operadores em Python
+## ➕ 3. Operadores em Python | Operators in Python | Python 中的运算符
+
+Operadores são usados para realizar operações com variáveis e valores. | Operators are used to perform operations on variables and values. | 运算符用于对变量和值进行操作。
 
 ### 🎯 Boas práticas ao usar operadores:
 
@@ -231,7 +228,7 @@ print("Idade: " + idade)  # ERRO
 print("Idade: " + str(idade))
 ```
 
-### 🔢 Aritméticos
+### 🔢 Aritméticos | Arithmetic Operators | 算术运算符
 
 | Operador | Exemplo  | Significado      |
 | -------- | -------- | ---------------- |
@@ -243,7 +240,7 @@ print("Idade: " + str(idade))
 | `%`      | 9 % 2    | Resto da divisão |
 | `**`     | 2 ** 3   | Potência         |
 
-### 🔍 Relacionais (Comparativos)
+### 🔍 Relacionais | Relational Operators | 关系运算符
 
 | Operador | Exemplo | Resultado |
 | -------- | ------- | --------- |
@@ -254,7 +251,7 @@ print("Idade: " + str(idade))
 | `>=`     | 6 >= 6  | True      |
 | `<=`     | 2 <= 4  | True      |
 
-### 🧠 Lógicos
+### 🧠 Lógicos | Logical Operators | 逻辑运算符
 
 | Operador | Exemplo        | Significado |
 | -------- | -------------- | ----------- |
@@ -262,9 +259,27 @@ print("Idade: " + str(idade))
 | `or`     | True or False  | OU lógico   |
 | `not`    | not True       | Negação     |
 
+### 🧵 Strings e Operadores | Strings and Operators | 字符串与运算符
+
+```python
+nome = "Ana"
+sobrenome = "Silva"
+print(nome + " " + sobrenome)  # Concatenação | Concatenation | 连接字符串
+print("Olá! " * 3)               # Repetição | Repetition | 重复
+
+```
+⚠️ Não é possível concatenar string com número diretamente:
+
+```python
+idade = 20
+# print("Idade: " + idade)  # Erro | Error | 错误
+print("Idade: " + str(idade))  # Correto | Correct | 正确
+```
 ---
 
-## 🧮 4. Expressões
+## 🧮 4. Expressões em Python | Expressions in Python | Python 中的表达式
+
+Expressões são combinações de valores, variáveis e operadores que geram um resultado. | Expressions combine values, variables, and operators to produce a result. | 表达式是由值、变量和运算符组成的语句，用于计算结果。
 
 ### 🎯 Boas práticas ao escrever expressões:
 
@@ -299,7 +314,7 @@ valor = 5 +       # Incompleto → ERRO
 
 ---
 
-## ⌨️ 5. Entrada (input) e Saída (print)
+## ⌨️ 5. Entrada e Saída | Input and Output | 输入与输出
 
 ### 🎯 Boas práticas com entrada e saída:
 
@@ -313,7 +328,7 @@ valor = 5 +       # Incompleto → ERRO
 - Para realizar operações matemáticas, converta o valor com `int()` ou `float()`.
 - `print()` pode aceitar múltiplos argumentos separados por vírgulas ou concatenar com `+`, desde que tudo seja string.
 
-### 📥 Receber dados do usuário
+### 📥 Entrada com input() | Input with input() | 使用 input() 输入
 
 ```python
 nome = input("Digite seu nome: ")
@@ -322,7 +337,7 @@ idade = input("Digite sua idade: ")
 
 Lembre-se: tudo que vem do `input()` é string.
 
-### 📤 Exibir dados com `print()`
+### 📤 Saída com print() | Output with print() | 使用 print() 输出
 
 ```python
 print("Olá", nome, "você tem", idade, "anos")
@@ -351,12 +366,15 @@ print("Altura registrada: " + altura)   # ERRO → precisa converter altura para
 ```python
 print("Altura registrada: " + str(altura))
 ```
+⚠️ Conversão de tipos | Type Conversion | 类型转换
 
+```python
+altura = float(input("Altura: "))
+print("Altura registrada: " + str(altura))
+```
 ---
 
-**Parabéns, você chegou ao fim do Estudo Dirigido Python 101 - Algoritmos Sequenciais ou de Estrutura Linear: Variáveis, Operadores e Expressões 🎉**
-
-**Vá para o Exercício 1**
+🎉 Parabéns! Você concluiu a Aula 1 sobre estruturas básicas de programação com Python. Agora você entende variáveis, operadores, expressões, entrada e saída de dados. [✅ Vá para o Exercício 1 e pratique o que aprendeu!](https://github.com/ViniciusAmador/Curso-Python-101/blob/main/Exercicio%201.py) | Congratulations! You've completed Lesson 1 on Python basics. Now you understand variables, operators, expressions, input and output. [✅  Go to Exercise 1 to practice what you've learned!](https://github.com/ViniciusAmador/Curso-Python-101/blob/main/Exercicio%201.py) | 恭喜你完成了第 1 课！你已经掌握了变量、运算符、表达式、输入与输出的基本知识。[✅ 前往练习 1 来巩固所学内容！](https://github.com/ViniciusAmador/Curso-Python-101/blob/main/Exercicio%201.py)
 
 ---
 
