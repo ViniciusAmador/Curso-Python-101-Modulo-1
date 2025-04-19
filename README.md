@@ -10,9 +10,10 @@
 </p>
 
 # 🐍 python101
-## Módulo 1
-### Seja bem vindo. Este material foi preparado carinhosamente por mim, para acolhê-los no curso de Python do ciclo básico de programação. Espero que o material seja proveitoso!
-### Professor, Dr. Vinícius Costa Amador 
+## Professor, Dr. Vinícius Costa Amador 
+### ✨ Seja bem-vindo(a)! Este material foi preparado com carinho para acolher você no curso de Python do ciclo básico de programação. Espero que aproveite bastante e que o conteúdo te ajude a crescer! ✨ Welcome! This material was lovingly prepared to welcome you to the Python course for the basic programming cycle. I hope you enjoy it and that it helps you grow! ✨ 欢迎！本课程材料是我用心准备的，旨在欢迎你加入 Python 编程基础课程。希望你能从中受益，不断成长！
+
+# Módulo 1
 
 ## 📍 Sobre o Curso | About the Course | 关于课程
 
