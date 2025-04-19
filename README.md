@@ -1,8 +1,64 @@
-# 📘 Estudo Dirigido Python 101 – Aula 1: Variáveis, Operadores e Expressões
-
+# 🐍 python101
 ## Módulo 1
 ### Professor, Dr. Vinícius Costa Amador 
 
+## 📘 Sobre o Curso | About the Course | 关于课程
+
+Aqui eu documento um curso de Python do **básico ao avançado**, cujo nome será **“python101”**.  
+O material tem **forte inspiração** no curso [Python for Everybody (PY4E)](https://www.py4e.com/) desenvolvido pela Universidade de Michigan e ministrado pelo professor **Charles Severance**.  
+Material extra utilizado como suporte adicional pode ser consultado em: [w3schools.com/python](https://www.w3schools.com/python/default.asp).  
+Para os alunos brasileiros, recomenda-se também conhecer a comunidade [Python Brasil](https://python.org.br/), que incentiva o aprendizado e a colaboração em todo o país.
+
+Here I document a Python course from basic to advanced, named **“python101”**.  
+**Strongly inspired** by the [Python for Everybody (PY4E)](https://www.py4e.com/) course, developed by the University of Michigan and taught by Professor **Charles Severance**.  
+Additional learning references can be found at: [w3schools.com/python](https://www.w3schools.com/python/default.asp).  
+For Portuguese-speaking students, we recommend engaging with the vibrant [Python Brasil community](https://python.org.br/), which promotes learning and collaboration.
+
+这里我记录了一个从基础到高级的 Python 课程，名为 **“python101”**。  
+该课程受密歇根大学 **Charles 教授** 主讲的 [Python for Everybody (PY4E)](https://www.py4e.com/) 课程的 **启发很大**。  
+所使用的额外学习资料可参考：[w3schools.com/python](https://www.w3schools.com/python/default.asp)。  
+对于讲葡萄牙语的学生，推荐加入 [Python Brasil 社区](https://python.org.br/)，该社区鼓励学习和协作。
+
+---
+
+## 🐍 Instalação do Python | Python Installation | Python 安装指南
+
+Para começar a programar em Python, é necessário instalar o interpretador da linguagem.  
+A versão mais recente disponível é a **Python 3.13.3** ([python.org](https://www.python.org/downloads/?utm_source=chatgpt.com)).
+
+### 💻 Windows
+
+1. Acesse o site oficial: [python.org/downloads](https://www.python.org/downloads/)
+2. Clique em "Download Python 3.13.3" para Windows.
+3. Execute o instalador baixado.
+4. **Importante:** Marque a opção “Add Python to PATH” antes de clicar em “Install Now”.
+
+### 🍎 macOS
+
+1. Visite: [python.org/downloads](https://www.python.org/downloads/)
+2. Clique em "Download Python 3.13.3" para macOS.
+3. Abra o arquivo `.pkg` baixado e siga as instruções do instalador.
+
+### 🐧 Linux
+
+A maioria das distribuições Linux já vem com o Python instalado. Para verificar, abra o terminal e digite:
+
+```bash
+python3 --version
+```
+
+Se não estiver instalado ou desejar uma versão mais recente, utilize o gerenciador de pacotes da sua distribuição.  
+Exemplo no Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install python3
+```
+
+Para outras distribuições, consulte a documentação específica ou compile a partir do código-fonte disponível em [python.org/downloads](https://www.python.org/downloads/).
+
+
+# 📘 Aula 1: Variáveis, Operadores e Expressões
 
 ---
 
@@ -304,7 +360,7 @@ print("Altura registrada: " + str(altura))
 
 ---
 
-# 📘 Estudo Dirigido Python 101 – Aula 2: Estruturas de Decisão e Expressões Condicionais
+# 📘 Aula 2: Estruturas de Decisão e Expressões Condicionais
 
 Professor, Vinícius Costa Amador
 
@@ -414,7 +470,5 @@ if idade >= 18 and habilitacao:
 ---
 
 **Parabéns, você concluiu a introdução às Algoritmos de Estruturas de Decisão para Expressões Condicionais! 🎉**
-
-Deseja seguir para estruturas de repetição?
 
 **Vá para o Exercício 2**
