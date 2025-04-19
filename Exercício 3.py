@@ -1,4 +1,4 @@
-#Exercício 2:
+#Exercício 3:
 #Vinícius Costa Amador
 # Uso do Loop While
 #Créditos ao colega professor Aldo Moura pela ideia didático-criativa de aplicação criada inicialmete em C
