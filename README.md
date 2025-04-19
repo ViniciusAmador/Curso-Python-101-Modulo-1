@@ -5,6 +5,10 @@
   <img src="https://img.shields.io/badge/licença-MIT-green" alt="Licença">
 </p>
 
+<p align="center">
+  <img src="assets/banner_python101.png" width="400" alt="Python101 Logo">
+</p>
+
 # 🐍 python101
 ## Módulo 1
 ### Professor, Dr. Vinícius Costa Amador 
