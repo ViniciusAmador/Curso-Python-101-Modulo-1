@@ -108,7 +108,7 @@ print("Erro de indentação")  # Erro
 
 ---
 
-## 📦 2. Variáveis em Python | Variables in Python | Python 中的变量
+## 📦 2. Tipos primitivos de Variáveis em Python | Variables in Python | Python 中的变量
 
 Variáveis armazenam dados em memória com nomes escolhidos pelo programador. Em Python, o tipo é atribuído automaticamente. | Variables store data in memory using names. In Python, the type is assigned automatically. | 变量使用名称在内存中存储数据，在 Python 中类型由系统自动推断。
 
@@ -137,7 +137,7 @@ nome! = "João"       # Erro: nome de variável inválido
 
 ---
 
-### 🎯  Boas Práticas | Best Practices | 最佳实践
+### 🎯  Boas Práticas: Camel Cases | Best Practices | 最佳实践
 
 - Sem espaços ou símbolos especiais. | No spaces or special symbols. | 不允许空格或特殊字符。`!`, `@`, `%`, etc.
 - Não usar palavras reservadas. | Don't use reserved words. | 不要使用保留字。 (ex: `if`, `print`, `for`).
