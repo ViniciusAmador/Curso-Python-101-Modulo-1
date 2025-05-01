@@ -71,7 +71,28 @@ sudo apt install python3
 Para outras distribuições, consulte a documentação específica ou compile a partir do código-fonte disponível em [python.org/downloads](https://www.python.org/downloads/).
 
 
-# 📘 Aula 1: Introdução à Programação com Python: Variáveis, Operadores, Expressões e Entrada de Dados | Introduction to Programming with Python: Variables, Operators, Expressions and Input/Output | 使用 Python 编程入门：变量、运算符、表达式与输入输出
+# 📘 Aula 1: Introdução à Programação Linear | Introduction to Linear Programming | 线性编程入门
+
+## 📑 Sumário | Summary | 目录
+1. Variáveis | Variables | 变量
+- Declaração e atribuição | Declaration and assignment | 声明与赋值
+- Tipos primitivos (int, float, str, bool) | Primitive types | 基本类型
+- Conversão de tipos | Type casting | 类型转换
+- Convenções de nomes | Naming conventions | 命名规范
+
+2. Operadores | Operators | 运算符
+- Aritméticos: +, -, *, /, %, //, **
+- Relacionais: >, <, >=, <=, ==, !=
+- Lógicos: and, or, not
+- De atribuição: =, +=, -=, etc.
+
+3. Expressões | Expressions | 表达式
+- Expressões matemáticas | Mathematical expressions | 数学表达式
+- Expressões booleanas | Boolean expressions | 布尔表达式
+
+4. Entrada e Saída | Input and Output | 输入与输出
+- Função input() | input() function | input()函数
+- Função print() | print() function | print()函数
 
 ---
 
@@ -391,7 +412,19 @@ print("Altura registrada: " + str(altura))
 
 ---
 
-# 📘 Aula 2: Estruturas de Decisão e Expressões Condicionais | Decision Structures and Conditional Expressions | 决策结构与条件表达式
+# 📘 Programação Não Linear | Non-linear Programming | 非线性编程
+📑 Sumário | Summary | 目录
+5. Estruturas de Decisão Condicional | Conditional Statements | 条件语句
+- Estrutura Condicional Simples (if) | Simple Conditional Structure | 简单条件结构
+- Estrutura Condicional Composta (if-else) | Compound Conditional Structure | 复合条件结构
+- Estrutura Condicional Encadeada (if-elif-else) | Chained Conditional Structure | 链式条件结构
+- Expressão Condicional Ternária (x if cond else y) | Ternary Conditional Expression | 三元条件表达式
+- Estruturas Condicionais Aninhadas | Nested Conditional Structures | 嵌套条件结构
+
+6. Laços de Repetição (Loops) | Repetition Structures | 循环结构
+- while Loop | while Loop | while循环
+- for Loop | for Loop | for循环
+- break e continue | break and continue | break与continue
 
 Professor, Vinícius Costa Amador
 
