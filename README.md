@@ -34,7 +34,7 @@ For Portuguese-speaking students, we recommend engaging with the vibrant [Python
 
 # Módulo 1
 ## 📑 Sumário | Summary | 目录
-### Aula 1: Programção Linear
+### Aula 1: Programção Sequencial
 
 1. Variáveis | Variables | 变量
 - Declaração e atribuição | Declaration and assignment | 声明与赋值
@@ -109,7 +109,7 @@ sudo apt install python3
 Para outras distribuições, consulte a documentação específica ou compile a partir do código-fonte disponível em [python.org/downloads](https://www.python.org/downloads/).
 
 
-# 📘 Aula 1: Introdução à Programação Linear | Introduction to Linear Programming | 线性编程入门
+# 📘 Aula 1: Introdução à Programação Sequencial | Introduction to Sequential Programming | 
 
 ## 📑 Sumário | Summary | 目录
 1. Variáveis | Variables | 变量
