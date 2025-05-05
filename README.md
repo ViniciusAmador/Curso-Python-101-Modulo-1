@@ -703,3 +703,11 @@ for i in range(10):
 
 # 📚 Agora que você terminou, por que não tenta o Módulo 2? | Now that you’ve finished, why not try Module 2? | 既然你完成了，不妨试试模块 2？
 ##👉 [Clique aqui](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/tree/main)) | [Click here](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/tree/main) | [点此进入](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-2/tree/main)
+
+---
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ViniciusAmador.Curso-Python-101-Modulo-1" alt="repo views"/>
+</p>
+
+
