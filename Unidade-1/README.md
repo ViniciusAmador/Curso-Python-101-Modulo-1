@@ -1,3 +1,24 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/versão-1.0-blue" alt="Versão">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status do Curso">
+  <img src="https://img.shields.io/badge/feito%20com-Python%203.x-blue?logo=python&logoColor=white" alt="Feito com Python">
+  <img src="https://img.shields.io/badge/licença-MIT-green" alt="Licença">
+</p>
+<p align="center">
+  <img src="assets/banner_python101.png" width="400" alt="Python101 Logo">
+</p>
+
+# 🐍 python101
+## Professor, Dr. Vinícius Costa Amador 
+### ✨ Welcome! This material was lovingly prepared to welcome you to the Python course for the basic programming cycle. I hope you enjoy it and that it helps you grow! 
+
+## 📍 About the Course
+Here I document a Python course from basic to advanced, named **“python101”**.  
+**Strongly inspired** by the [Python for Everybody (PY4E)](https://www.py4e.com/) course, developed by the University of Michigan and taught by Professor **Charles Severance**, also I am inspired by Profa. Dra. Raquel C. de Melo-Minardi from Departamento de Ciência da Computação-UFMG.  
+Additional learning references can be found at: [w3schools.com/python](https://www.w3schools.com/python/default.asp).  
+For Portuguese-speaking students, we recommend engaging with the vibrant [Python Brasil community](https://python.org.br/), which promotes learning and collaboration.
+
+
 # *📘1st Class: Introduction to Sequential Programming*
 ```
 python101/
