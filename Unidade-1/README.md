@@ -3,17 +3,17 @@
 python101/
     └──Unidade-1
           ├── 00-basic-syntax/
-               ├──
-               └──
+          |     ├──
+          |     └──
           ├── 01-variables/
-               ├──
-               └──Exercícios
+          |     ├──
+          |     └──Exercícios
           ├── 02-operators/
-               ├──
-               └──Exercícios
+          |     ├──
+          |     └──Exercícios
           ├── 03-expressions/
-               ├──
-               └──Exercícios
+          |     ├──
+          |     └──Exercícios
           └── 04-input-output/
                ├──
                └──Exercícios
