@@ -1,4 +1,4 @@
-# *📘1st Class: Introduction to Sequential Programming**
+# *📘1st Class: Introduction to Sequential Programming*
 ## 📑 Summary
 
 [0. **Basic of Python Syntax**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/bff2907cab62eacd065adfaa5a8134b8cefaff80/Unidade-1/Basic%20of%20Python%20Syntax)
@@ -23,7 +23,7 @@
 - Mathematical expressions;
 - Boolean expressions;
 
-4. **Input and Output**
+[4. **Input and Output**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/06cc357a483393184168497ef210e4656ade9ccd/Unidade-1/Input%20and%20Output)
 - input() function;
 - print() function;
 - sys module for streams;
