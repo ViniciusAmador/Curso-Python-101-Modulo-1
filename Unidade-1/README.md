@@ -1,6 +1,6 @@
 # *📘1st Class: Introduction to Sequential Programming**
 ## 📑 Summary
-0. **Basic of Python Syntax**
+[0. **Basic of Python Syntax**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/bff2907cab62eacd065adfaa5a8134b8cefaff80/Unidade-1/Basic%20of%20Python%20Syntax)
 - Lexical and Syntax Errors;
 - Reserved Words and Camel Case;
 - Identation;
