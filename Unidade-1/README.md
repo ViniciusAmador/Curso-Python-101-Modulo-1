@@ -3,6 +3,7 @@
 0. **Basic of Python Syntax**
 - Lexical and Syntax Errors;
 - Reserved Words and Camel Case;
+- Identation;
 - First code; 
 1. **Variables**
 - Declaration and assignment;
