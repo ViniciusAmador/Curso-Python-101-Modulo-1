@@ -19,7 +19,7 @@ Curso-Python-101-Modulo-1/
 ├── README.md                   ← Root
 ├── assets/
 └── Unidade-1/
-    ├── README.md               ← Sumário do módulo
+    ├── README.md               ← Sumário do módulo (YOU ARE HERE)
     └── EXERCICIO-1/            ← Sumário do módulo
 ```
 ## 🐍 1. First Code
