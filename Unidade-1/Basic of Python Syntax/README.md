@@ -13,15 +13,7 @@
 ## Professor, Dr. Vinícius Costa Amador 
 ### ✨ Welcome! This document was lovingly prepared to welcome you to the Python course for the basic programming cycle. I hope you enjoy it and that it helps we grow! 
 # 0. **Basic of Python Syntax**
--You are here:
-```
-Curso-Python-101-Modulo-1/
-├── README.md                           ← Root
-├── assets/
-└── Unidade-1/                          ← First Unity
-        ├── Basic of Python Syntax/     ← First Topic of 1st Unity
-            └── README.md               ← You Are Here
-```
+
 ## 🐍 1. First Code
 ```python
 print("Hello, World!")
