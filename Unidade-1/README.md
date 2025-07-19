@@ -1,7 +1,8 @@
-# 📘**Aula 1: Introduction to Sequential Programming**
+# *📘1st Class: Introduction to Sequential Programming**
 ## 📑 Summary
-### *📘1st Class: Introduction to Sequential Programming*
 0. **Basic of Python Syntax**
+- Lexical and Syntax Errors;
+- Reserved Words and Camel Case;
 - First code; 
 1. **Variables**
 - Declaration and assignment;
