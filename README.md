@@ -19,25 +19,26 @@ Additional learning references can be found at: [w3schools.com/python](https://w
 For Portuguese-speaking students, we recommend engaging with the vibrant [Python Brasil community](https://python.org.br/), which promotes learning and collaboration.
 
 ```
-python101/
-    └──Unidade-1
-          ├── 00-basic-syntax/
-          |     ├──
-          |     └──
-          ├── 01-variables/
-          |     ├──
-          |     └──Exercícios
-          ├── 02-operators/
-          |     ├──
-          |     └──Exercícios
-          ├── 03-expressions/
-          |     ├──
-          |     └──Exercícios
-          └── 04-input-output/
-               ├──
-               └──Exercícios
+---
+# *📘Módulo 1: Conceitos elementares e a Programação Sequencial - 1.0. Sintaxe Básica*
+Navegue pelos diretórios do curso!! 📍
 ```
-
+python101(📍Você está aqui)/
+    ├──Módulo 1/
+    |      ├── 0.0-Nivelamento de Conceitos
+    |      ├── 1.0-Sintaxe Básica/
+    |      ├── 1.1-Variáveis/
+    |      ├── 1.2-Operadores/
+    |      ├── 1.3-Expressões/
+    |      ├── 1.4-Entrada e Saída/
+    |      └── 1.5-Exercício/
+    └── 1.0-Sintaxe Básica/
+          ├── 1.1-Variáveis/
+          ├── 1.2-Operadores/
+          ├── 1.3-Expressões/
+          ├── 1.4-Entrada e Saída/
+          └── 1.5-Exercício/
+```
 # [1st Module](./Curso-Python-101-Modulo-1)
 # *📘1st Class: Introduction to Sequential Programming*
 
