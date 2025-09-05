@@ -11,7 +11,21 @@
 
 # 🐍 python101
 ## Professor, Dr. Vinícius Costa Amador 
-### ✨ Welcome! This material was lovingly prepared to welcome you to the Python course for the basic programming cycle. I hope you enjoy it and that it helps you grow! 
+### ✨ Welcome! This document was lovingly prepared to welcome you to the Python course for the basic programming cycle. I hope you enjoy it and that it helps we grow! 
+---
+# *📘Módulo 1: Conceitos elementares e a Programação Sequencial - 0.0 Nivelamento de Conceitos*
+Navegue pelos diretórios do curso!! 📍
+```
+python101/
+    └──Módulo 1/
+          ├── 0.0-Nivelamento de Conceitos/
+          ├── 1.0-Sintaxe Básica/
+          ├── 1.1-Variáveis/
+          ├── 1.2-Operadores (📍Você está aqui)/
+          ├── 1.3-Expressões/
+          ├── 1.4-Entrada e Saída/
+          └── 1.5-Exercícios/
+```
 
 # Módulo 1
 ## 🐍 Unit 3 – Operators in Python

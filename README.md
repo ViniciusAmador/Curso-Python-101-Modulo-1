@@ -12,7 +12,7 @@
 ## Professor, Dr. Vinícius Costa Amador 
 ### ✨ Bem-vindo! Este material foi preparado com carinho para receber você no curso de Python para o ciclo básico de programação. Espero que aproveite e que ele ajude no seu crescimento! 
 ---
-## 📍 Sobre o Curso
+### 📍 Sobre o Curso
 Aqui está documentado um curso de Python do **básico ao avançado**, chamado **“python101”**.  
 **Fortemente inspirado** no curso [Python for Everybody (PY4E)](https://www.py4e.com/), desenvolvido pela Universidade de Michigan e ministrado pelo Professor **Charles Severance**, e também inspirado pela Profa. Dra. **Raquel C. de Melo-Minardi**, do Departamento de Ciência da Computação da UFMG.  
 
@@ -29,6 +29,7 @@ python101/
           ├── 1.1-Variáveis/
           ├── 1.2-Operadores/
           ├── 1.3-Expressões/
-          └── 1.4-Entrada e Saída/
+          ├── 1.4-Entrada e Saída/
+          └── 1.5-Exercícios/
 
 ```

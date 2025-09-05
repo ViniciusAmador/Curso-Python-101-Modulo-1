@@ -13,17 +13,20 @@
 ## Professor, Dr. Vinícius Costa Amador 
 ### ✨ Welcome! This material was lovingly prepared to welcome you to the Python course for the basic programming cycle. I hope you enjoy it and that it helps you grow! 
 
-# 1. **Primitive Data Types in Python**
--You are here:
+# *📘Módulo 1: Conceitos elementares e a Programação Sequencial - 1.1 Variáveis*
+Navegue pelos diretórios do curso!! 📍
 ```
-Curso-Python-101-Modulo-1/
-├── README.md                           ← Root
-├── assets/
-└── Unidade-1/                          ← First Unity
-        ├── Basic of Python Syntax/     ← First Topic of 1st Unity
-        ├── Primitive Data Types in Python/     ← Second Topic of 1st Unity
-            └── README.md               ← You Are Here
+python101/
+    └──Módulo 1/
+          ├── 0.0-Nivelamento de Conceitos/
+          ├── 1.0-Sintaxe Básica/
+          ├── 1.1-Variáveis (📍Você está aqui)/
+          ├── 1.2-Operadores/
+          ├── 1.3-Expressões/
+          ├── 1.4-Entrada e Saída/
+          └── 1.5-Exercícioss/
 ```
+# 0.0
 ## 🐍 Unit 1 – Primitive Data Types in Python
 Python assigns a type **dynamically** the moment you bind a value to a variable name.\
 Understanding these core (built‑in) types is the foundation for every script you will write.
@@ -72,7 +75,7 @@ name! = "John"     # Invalid identifier – contains '!'
 float = 3.14       # Shadowing built‑in type name – avoid!
 ```
 ---
-### 📝 Useful `str` Methods
+### 📝 Useful `str` Methods (Aqui é preciso mencionar que as strings tem um índice (index) e nesse caso é possível operar usando colchetes [] dentro de uma string)
 ```python
 text = "Good Morning"
 print(text.upper())          # GOOD MORNING
