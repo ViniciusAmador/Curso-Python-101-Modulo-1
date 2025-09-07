@@ -1,24 +1,35 @@
-### 🏋️‍♂️ Exercise 1 – *Inspect & Convert Types in the Terminal*
-> **Goal:** See how Python infers types and how explicit conversion changes them.
-1. Open your terminal and create ``.
-2. Ask the user for **any** input and store it in `data`.
-3. Print the value **and** its current type with `type()`.
-4. If `data.isdigit()` returns `True`, convert it to `int`.\
-   Otherwise, try converting to `float` with `float()` inside a `try/except` block.\
-   If conversion fails, keep it as `str`.
-5. Print the new value and type so the change is visible.
-```python
-data = input("Enter something: ")
-print("Original:", data, type(data))
+🏋️‍♂️ Exercício 1 – Explorando Variáveis (Somente Terminal)
 
-if data.isdigit():
-    data = int(data)
-else:
-    try:
-        data = float(data)
-    except ValueError:
-        pass  # remains a string
+Crie o arquivo exercise-unit2.py que:
 
-print("After processing:", data, type(data))
-```
-Run the script with inputs like `42`, `3.14`, and `hello` to observe how the type adapts.
+Solicite ao usuário seu nome (string), idade (int) e altura (float).
+Exiba os valores armazenados junto com seus tipos usando a função type().
+Mostre como é possível alterar o valor de uma variável já existente.
+
+Faça uma conversão de tipos:
+
+idade → str
+altura → int
+
+Crie uma variável booleana maior_de_idade que receba True se a idade for maior ou igual a 18, caso contrário False.
+Exiba uma frase formatada com f-string usando todas as variáveis.
+
+Exemplo de saída:
+Digite seu nome: Ana
+Digite sua idade: 21
+Digite sua altura (m): 1.68
+Nome: Ana  | Tipo: <class 'str'>
+Idade: 21  | Tipo: <class 'int'>
+Altura: 1.68 | Tipo: <class 'float'>
+
+Atualizando idade...
+Idade agora é: 22
+
+Conversão:
+Idade como string -> "21"
+Altura como inteiro -> 1
+
+Maior de idade? True
+
+Resumo:
+Olá, meu nome é Ana, tenho 22 anos e 1.68m de altura.

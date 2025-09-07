@@ -56,5 +56,8 @@ python101/
           │     ├── 4.2-Exemplo de Expressão Aritmética/
           │     └── 4.3-Exemplo de Expressão Booleana/
           ├── 5.0-Entrada e Saída/
+          │     ├── 5.1 – Programação Sequencial e Entrada/Saída/
+          │     ├── 5.2 - Entrada com `input()`/
+          │     └── 5.3 - Saída com `print()`/   
           └── 6.0-Exercícios/
 ```
