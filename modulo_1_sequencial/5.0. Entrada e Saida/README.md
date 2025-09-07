@@ -48,6 +48,8 @@ A programação sequencial é o modelo mais básico de execução:
   <img src="assets/sequencial.png" width="400" alt="sequencial">
 </p>
 
+Figura1. Esquematização do Fluxo Sequencial
+
 > 👉 Esse ciclo Entrada → Processamento → Saída é a essência de como computadores funcionam.
 
 ## 5.2 📥 Entrada com `input()`
