@@ -47,7 +47,7 @@ O pensamento computacional é a habilidade de resolver problemas de forma sistem
 - **Decomposição** – dividir um problema complexo em partes menores e mais fáceis de resolver.
 - **Reconhecimento de Padrões** – identificar semelhanças ou repetições que ajudam a simplificar o problema.
 - **Abstração** – focar apenas nos aspectos essenciais, ignorando detalhes desnecessários.
-- **Algoritmos** – criar uma sequência de passos para resolver o problema.
+- **Algoritmos** – criar uma sequência de passos ordenados, finitos e não ambiguos para resolver o problema.
 
 > 🔎 Exemplos do Cotidiano
 > #### Organizar um lanche
@@ -60,11 +60,29 @@ Essas ideias são a base da lógica que usaremos em programação.
 >   
 
 ## 📌 0.2. Máquina de Von Neumann
-A arquitetura de Von Neumann é a estrutura clássica dos computadores modernos. 
+A arquitetura de Von Neumann, um renomado cientista que trabalhou no famoso projeto Manhatan, consistiu de uma estrutura clássica dos computadores modernos.
+
+<p align="center">
+  <img src="assets/vonneumann.png" width="400" alt="Von Neuman">
+</p>
+
+<p align="center">
+Figura1. Von Neumann (direita) no projeto Manhatan ao lado de J Robert Oppenheimer.
+</p>
+
+O princípio da máquina é ilustrado à seguir:
+
 #### Ela é formada por três etapas fundamentais:
 - **Entrada** – dados que entram no sistema (teclado, mouse, sensores, arquivos).
 - **Processamento** – a CPU interpreta e processa as instruções.
 - **Saída** – o resultado exibido para o usuário (tela, impressora, som, etc.).
+
+<p align="center">
+  <img src="assets/voneumannarchteture.png" width="400" alt="Von Neuman">
+</p>
+<p align="center">
+Figura2. Ilustração da arquitetura proposta por Von Neumann.
+</p>
 
 ## 📌 Esquema Simplificado:
 Entrada  →  Processamento  →  Saída
