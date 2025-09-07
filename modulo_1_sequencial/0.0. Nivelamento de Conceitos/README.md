@@ -44,10 +44,10 @@ Este módulo apresenta os fundamentos teóricos que servem de base para o estudo
 ## 📌 0.1. Pensamento Computacional
 O pensamento computacional é a habilidade de resolver problemas de forma sistemática, estruturada e eficiente, semelhante à forma como os computadores processam informações. 
 #### Ele é composto por quatro pilares principais:
-- **Decomposição** – dividir um problema complexo em partes menores e mais fáceis de resolver.
-- **Reconhecimento de Padrões** – identificar semelhanças ou repetições que ajudam a simplificar o problema.
-- **Abstração** – focar apenas nos aspectos essenciais, ignorando detalhes desnecessários.
-- **Algoritmos** – criar uma sequência de passos ordenados, finitos e não ambiguos para resolver o problema.
+- **Decomposição** – dividir um problema complexo em `partes menores` e mais fáceis de resolver.
+- **Reconhecimento de Padrões** – identificar `semelhanças ou repetições` que ajudam a simplificar o problema.
+- **Abstração** – focar apenas nos `aspectos essenciais`, ignorando detalhes desnecessários.
+- **Algoritmos** – criar uma `sequência de passos ordenados, finitos e não ambiguos para resolver o problema`.
 
 > 🔎 Exemplos do Cotidiano
 > #### Organizar um lanche
@@ -60,7 +60,7 @@ Essas ideias são a base da lógica que usaremos em programação.
 >   
 
 ## 📌 0.2. Máquina de Von Neumann
-A arquitetura de Von Neumann, um renomado cientista que trabalhou no famoso projeto Manhatan, consistiu de uma estrutura clássica dos computadores modernos.
+A arquitetura de `Von Neumann`, um renomado cientista que trabalhou no famoso `projeto Manhatan`, consistiu de uma estrutura clássica dos computadores modernos.
 
 <p align="center">
   <img src="assets/vonneumann.png" width="400" alt="Von Neuman">
@@ -73,9 +73,9 @@ Figura1. Von Neumann (direita) no projeto Manhatan ao lado de J Robert Oppenheim
 O princípio da máquina é ilustrado à seguir:
 
 #### Ela é formada por três etapas fundamentais:
-- **Entrada** – dados que entram no sistema (teclado, mouse, sensores, arquivos).
-- **Processamento** – a CPU interpreta e processa as instruções.
-- **Saída** – o resultado exibido para o usuário (tela, impressora, som, etc.).
+- **Entrada** – dados que `entram no sistema` (teclado, mouse, sensores, arquivos).
+- **Processamento** – a `CPU interpreta e processa as instruções`.
+- **Saída** – o `resultado` exibido para o usuário (tela, impressora, som, etc.).
 
 <p align="center">
   <img src="assets/voneumannarchteture.png" width="400" alt="Von Neuman">
@@ -85,7 +85,7 @@ Figura2. Ilustração da arquitetura proposta por Von Neumann.
 </p>
 
 ## 📌 Esquema Simplificado:
-Entrada  →  Processamento  →  Saída
+`Entrada  →  Processamento  →  Saída`
 ```python
 💻 Exemplo em Python
 # Entrada
@@ -101,27 +101,78 @@ print(mensagem)
 
 ## 📌 0.3. Linguagens de Programação
 
-Uma linguagem de programação é um conjunto de regras que permite que seres humanos escrevam instruções compreensíveis pelo computador.
+Uma linguagem de programação é um `conjunto de regras` que permite que seres humanos `escrevam instruções` compreensíveis pelo computador.
 
 #### 🔎 Por que existem?
-Para traduzir o raciocínio humano em instruções que o computador consiga executar.
-Para resolver problemas de forma automatizada.
+Para `traduzir o raciocínio humano` em instruções que o `computador consiga executar`.
+Para resolver problemas de forma `automatizada`.
 #### 📖 Breve Histórico
-- Assembly (baixo nível) – linguagem próxima do código de máquina.
-- C (1972) – trouxe portabilidade e ainda é a base de muitos sistemas.
-- Python (1991) – linguagem de alto nível, simples e legível.
-- Java (1995) – orientada a objetos, amplamente usada em sistemas corporativos.
+- **Assembly (baixo nível)** – linguagem próxima do código de máquina.
+- **C (1972)** – trouxe portabilidade e ainda é a base de muitos sistemas.
+- **Python (1991)** – linguagem de alto nível, simples e legível.
+- **Java (1995)** – orientada a objetos, amplamente usada em sistemas corporativos.
 
+> As linguagens de programação podem ser classificadas em diferentes níveis de abstração em relação à máquina.
+
+#### 🔽 Linguagens de Baixo Nível
+
+Ficam mais `próximas do hardware`.
+Exigem que o programador conheça detalhes da arquitetura (registradores, endereços de memória, instruções da CPU).
+São rápidas, mas difíceis de aprender e manter.
+
+**Exemplos:**
+- **Linguagem de Máquina:** sequência de `0s e 1s` (binário) que o processador entende diretamente.
+- **Assembly:** utiliza mnemônicos para instruções, como `MOV AX`, `1` (mover valor 1 para o registrador AX).
+
+>📌 **Aplicações:**
+Sistemas embarcados.
+Drivers de dispositivos.
+Programos que precisam de desempenho máximo (ex.: SO, controladores).
+
+#### 🔼 Linguagens de Alto Nível
+
+Ficam mais próximas da `linguagem humana`.
+Mais fáceis de aprender, escrever e manter.
+São traduzidas para linguagem de máquina por compiladores ou interpretadores.
+
+**Exemplos:**
+`Python, Java, C++, JavaScript`
+
+>**📌 Aplicações:**
+Desenvolvimento web, apps, ciência de dados, automação, IA, etc.
+
+**Comparação**
+| Aspecto       | Baixo Nível            | Alto Nível                        |
+| ------------- | ---------------------- | --------------------------------- |
+| Abstração     | Próximo ao hardware    | Próximo ao ser humano             |
+| Facilidade    | Difícil, verboso       | Mais simples, legível             |
+| Portabilidade | Baixa (depende da CPU) | Alta (roda em várias plataformas) |
+| Exemplo       | Assembly               | Python, Java                      |
+
+💻 Exemplo prático
+
+🔹 Assembly (baixo nível):
+```assembly
+MOV AX, 5   ; move o valor 5 para o registrador AX
+ADD AX, 3   ; soma 3 ao valor em AX
+```
+
+🔹 Python (alto nível):
+```python
+x = 5
+x = x + 3
+print(x)   # 8
+```
 ## ⚙️ 0.4  Linguagem Compilada x Interpretada
-##### Compiladas (C, C++): precisam ser traduzidas para código de máquina antes de executar.
+##### Compiladas `(C, C++)`: precisam ser traduzidas para código de máquina antes de executar.
 - ✅ Mais rápidas
 - ❌ Processo de compilação mais demorado
-##### Interpretadas (Python, JavaScript): são lidas e executadas linha a linha por um interpretador.
+##### Interpretadas `(Python, JavaScript)`: são lidas e executadas linha a linha por um interpretador.
 - ✅ Mais fáceis de testar e depurar
 - ❌ Geralmente mais lentas
 - ✅ Resumo do Módulo 0
 
 > - Pensamento Computacional: decomposição, padrões, abstração e algoritmos.
-> - Máquina de Von Neumann: entrada → processamento → saída.
+> - Máquina de Von Neumann: `entrada → processamento → saída`.
 > - Linguagens de Programação: histórico, por que existem e diferença entre compiladas e interpretadas.
 ---

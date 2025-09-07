@@ -20,61 +20,68 @@ Aqui está documentado um curso de Python do **básico ao avançado**, chamado *
 > Referências adicionais podem ser encontradas em: [w3schools.com/python](https://www.w3schools.com/python/default.asp).  
 Para estudantes de língua portuguesa, recomendamos a [Comunidade Python Brasil](https://python.org.br/), que promove aprendizado e colaboração.
 ---
-# *📘Módulo 1: Conceitos elementares e a Programação Sequencial - 0.0 Nivelamento de Conceitos*
+# *📘Módulo 1: Conceitos elementares e a Programação Sequencial - 4.0 Expressões*
 Navegue pelos diretórios do curso!! 📍
 ```
 python101/
     └──Módulo 1/
           ├── 0.0-Nivelamento de Conceitos/
           ├── 1.0-Sintaxe Básica/
-          ├── 1.1-Variáveis/
-          ├── 1.2-Operadores/
-          ├── 1.3-Expressões (📍Você está aqui)/
-          ├── 1.4-Entrada e Saída/
-          └── 1.5-Exercícios/
+          ├── 2.0-Variáveis/
+          ├── 3.0-Operadores/
+          ├── 4.0-Expressões (📍Você está aqui)/
+          │     ├── 4.1-Ordem, Operadores e Expressões/
+          │     ├── 4.2-Exemplo de Expressão Aritmética/
+          │     └── 4.3-Exemplo de Expressão Booleana/
+          ├── 5.0-Entrada e Saída/
+          └── 6.0-Exercícioss/
 ```
 
-## 🐍 Unit 4 – Expressions in Python
-An **expression** combines values, variables, and operators to produce a single result. In practice, nearly every non-trivial line of Python you write is an expression—or contains one.
+## 🐍 Unidade 4 – Expressões em Python
+Uma expressão combina valores, variáveis e operadores para produzir um único resultado.
+Na prática, quase toda linha não trivial de Python que você escreve é uma expressão — ou contém uma.
 ---
-### 🎯 Style & Best Practices
-* **Parentheses first** – use them liberally to show precedence, even when Python would get it right without them.
-* **One idea per line** – if an expression grows too long, split it and assign intermediate results to descriptively named variables.
-* **Descriptive names** – a well-chosen variable name makes an expression self-explanatory.
+### 4.1- 🎯 Ordem, operadores e expressões
+* **Parênteses primeiro** – use-os generosamente para indicar a precedência, mesmo quando o Python resolveria corretamente sem eles.
+* **Uma ideia por linha** – se uma expressão ficar muito longa, divida-a e atribua resultados intermediários a variáveis com nomes descritivos.
+* **Nomes descritivos** – um bom nome de variável torna a expressão autoexplicativa.
 ```python
-# 👍 Clear
-net_price = (gross_price - discount) * (1 + tax_rate)
-# 👎 Hard to read
-np = gp - d * (1 + t)
+# 👍 Claro
+preco_liquido = (preco_bruto - desconto) * (1 + taxa_imposto)
+# 👎 Claro
+preco_liquido = (preco_bruto - desconto) * (1 + taxa_imposto)
 ```
 ---
-### ⏫ Operator Precedence (recap)
-`()` **>** `**` **>** `* / // %` **>** `+  -` **>** comparisons **>** `not` **>** `and` **>** `or`
-Python follows the standard mathematical hierarchy; anything inside parentheses runs first.
+### Precedência dos Operadores (recapitulando)
+
+`()` > `**` > `*` `/` `//` `%` > `+` `-` > comparações `>` `not` `>` `and` `>` `or`
+
+> O Python segue a hierarquia matemática padrão; tudo que estiver dentro de parênteses é executado primeiro.
 ---
-### ✅ Arithmetic Expression Example
+### 4.2- ✅ Exemplo de Expressão Aritmética
 ```python
-result = 2 + 3 * 4    # 14, because * binds tighter than +
-print(result)
+resultado = 2 + 3 * 4  
+print(resultado)  
 ```
----
-### ✅ Boolean Expression Example
+`14, porque * tem precedência maior que +`
+
+### 4.3- ✅ Exemplo de Expressão Booleana
 ```python
-is_valid = 10 > 5 and 3 < 2
-print(is_valid)        # False
+valido = 10 > 5 and 3 < 2
+print(valido)        # False
 ```
-Logical operators (`and`, `or`, `not`) can chain comparisons to build complex conditions.
+>Operadores lógicos (and, or, not) podem encadear comparações para formar condições complexas.
 ---
-### ❌ Common Error
+### ❌ Erro Comum
 ```python
-value = 5 +           # SyntaxError → expression is incomplete
+valor = 5 +           # SyntaxError → expressão incompleta
 ```
-Always ensure both operands and the operator are present.
+> Sempre garanta que ambos os operandos e o operador estejam presentes.
 ---
-### 🚩 Tips & Edge Cases
-* Division always produces `float`; use `//` if you need an `int`.
-* String comparisons are lexicographic (`'apple' < 'banana'` → `True`).
-* Mixing numeric types promotes to the most “complex” type: `int → float → complex`.
-* An expression can be passed directly to functions: `print((2 + 3) * 4)`.
+### 🚩 Dicas
+
+- A divisão `/` sempre gera `float`; use `//` se precisar de `int`.
+- Comparações entre strings são lexicográficas (`'abacaxi' < 'banana'` → `True`).
+- Ao misturar tipos numéricos, o Python promove para o tipo mais “complexo”: `int → float → complex`.
+- Uma expressão pode ser passada diretamente para funções: `print((2 + 3) * 4)`.
 ---
-🎉 **Good job!** You now understand how to build and evaluate arithmetic and boolean expressions, and how operator precedence affects the final result. Next up: flow control with `if` statements.

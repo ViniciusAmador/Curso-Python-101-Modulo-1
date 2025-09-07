@@ -37,8 +37,24 @@ python101/
           |          ├── 1.5. Regras lógicas e sintáticas
           |          └── 1.6. Boas Práticas: Camel Case e Nomes de Variáveis
           ├── 2.0-Variáveis/
+          │     ├── 2.1-O que é uma variável?/
+          │     ├── 2.2-Tipos de Dados em Python — Definições Claras/
+          │     │     ├── 2.2.1-Strings (detalhes que importam)/
+          │     │     ├── 2.2.2-Inteiros (int)/
+          │     │     ├── 2.2.3-Floats (float)/
+          │     │     └── 2.2.4-Booleanos (bool)/
+          │     ├── 2.3-Conversão-de-tipos/
+          │     └── 2.5-Tipos-estruturados/
           ├── 3.0-Operadores/
+          │     ├── 3.1-Operadores-Aritméticos/
+          │     ├── 3.2-Operadores-Relacionais/
+          │     ├── 3.3-Operadores-Lógicos/
+          │     ├── 3.4-Operadores-de-Atribuição/
+          │     └── 3.5-Operadores-Binários/
           ├── 4.0-Expressões/
+          │     ├── 4.1-Ordem, Operadores e Expressões/
+          │     ├── 4.2-Exemplo de Expressão Aritmética/
+          │     └── 4.3-Exemplo de Expressão Booleana/
           ├── 5.0-Entrada e Saída/
           └── 6.0-Exercícios/
 ```
