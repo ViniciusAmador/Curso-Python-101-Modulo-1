@@ -25,39 +25,20 @@ Navegue pelos diretórios do curso!! 📍
 python101/
     └──Módulo1 (📍Você está aqui)/
           ├── 0.0-Nivelamento de Conceitos/
+          |           ├── 0.1. Pensamento Computacional
+          |           ├── 0.2. Máquina de Von Neumann
+          |           ├── 0.3. Linguagens de Programação
+          |           └── 0.4. Linguagem Compilada x Interpretada
           ├── 1.0-Sintaxe Básica/
-          ├── 1.1-Variáveis/
-          ├── 1.2-Operadores/
-          ├── 1.3-Expressões/
-          ├── 1.4-Entrada e Saída/
-          └── 1.5-Exercícios/
+          |          ├── 1.1. Primeiro Código
+          |          ├── 1.2. Regras de Linguagens de Programação
+          |          ├── 1.3. Comentários com `#` ou `'`
+          |          ├── 1.4. Exemplos de paradigmas
+          |          ├── 1.5. Regras lógicas e sintáticas
+          |          └── 1.6. Boas Práticas: Camel Case e Nomes de Variáveis
+          ├── 2.0-Variáveis/
+          ├── 3.0-Operadores/
+          ├── 4.0-Expressões/
+          ├── 5.0-Entrada e Saída/
+          └── 6.0-Exercícios/
 ```
-## 📑 Summary
-[1.0. **Sintaxe Básica do Python**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/bff2907cab62eacd065adfaa5a8134b8cefaff80/Unidade-1/Basic%20of%20Python%20Syntax)
-- Erros lexicais e de sintaxe;  
-- Palavras reservadas e *Camel Case*;  
-- Identação;  
-- Primeiro código.  
-[1.1. **Variáveis**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/6e837682750860bf2676814b2d3a21d9732b9d70/Unidade-1/Primitive%20Data%20Types%20in%20Python)
-- Declaração e atribuição;  
-- Tipos primitivos (`int`, `float`, `str`, `bool`);  
-- O caso das Strings; 
-- Conceito e imutabilidade;  
-- Operações básicas (concatenação, repetição, fatiamento);  
-- Contagem de caracteres;  
-- Aplicações e exceções.  
-- Conversão de tipos (*casting*);  
-- Convenções de nomenclatura.  
-[1.2. **Operadores**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/6e837682750860bf2676814b2d3a21d9732b9d70/Unidade-1/Operators)_
-- Aritméticos: `+ - * / % // **`;  
-- Relacionais: `> < >= <= == !=`;  
-- Lógicos: `and or not`;  
-- Atribuição: `= += -=`.  
-[1.3. **Expressões**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/6e837682750860bf2676814b2d3a21d9732b9d70/Unidade-1/Expressions)
-- Expressões matemáticas;  
-- Expressões booleanas.  
-[1.4. **Entrada e Saída**](https://github.com/ViniciusAmador/Curso-Python-101-Modulo-1/tree/06cc357a483393184168497ef210e4656ade9ccd/Unidade-1/Input%20and%20Output)
-- Função `input()`;  
-- Entrada de Dados;
-- Função `print()`;  
-- Formatação de Saída;

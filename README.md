@@ -22,14 +22,14 @@ Para estudantes de língua portuguesa, recomendamos a [Comunidade Python Brasil]
 # *📘Módulo 1: Conceitos elementares e a Programação Sequencial*
 Navegue pelos diretórios do curso!! 📍
 ```
-python101/
-    └──Módulo1 (📍Você está aqui)/
+python101 (📍Você está aqui)/
+    └──Módulo1/
           ├── 0.0-Nivelamento de Conceitos/
           ├── 1.0-Sintaxe Básica/
-          ├── 1.1-Variáveis/
-          ├── 1.2-Operadores/
-          ├── 1.3-Expressões/
-          ├── 1.4-Entrada e Saída/
-          └── 1.5-Exercícios/
+          ├── 2.0-Variáveis/
+          ├── 3.0-Operadores/
+          ├── 4.0-Expressões/
+          ├── 5.0-Entrada e Saída/
+          └── 6.0-Exercícios/
 
 ```
