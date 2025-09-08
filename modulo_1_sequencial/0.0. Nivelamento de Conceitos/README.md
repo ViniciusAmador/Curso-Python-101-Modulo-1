@@ -175,6 +175,4 @@ print(x)   # 8
 > - Pensamento Computacional: decomposição, padrões, abstração e algoritmos.
 > - Máquina de Von Neumann: `entrada → processamento → saída`.
 > - Linguagens de Programação: histórico, por que existem e diferença entre compiladas e interpretadas.
-
-## 
 ---
