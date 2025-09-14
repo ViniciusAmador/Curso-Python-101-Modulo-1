@@ -23,41 +23,52 @@ Para estudantes de língua portuguesa, recomendamos a [Comunidade Python Brasil]
 Navegue pelos diretórios do curso!! 📍
 ```
 python101/
-    └──Módulo1 (📍Você está aqui)/
-          ├── 0.0-Nivelamento de Conceitos/
-          |           ├── 0.1. Pensamento Computacional
-          |           ├── 0.2. Máquina de Von Neumann
-          |           ├── 0.3. Linguagens de Programação
-          |           └── 0.4. Linguagem Compilada x Interpretada
-          ├── 1.0-Sintaxe Básica/
-          |          ├── 1.1. Primeiro Código
-          |          ├── 1.2. Regras de Linguagens de Programação
-          |          ├── 1.3. Comentários com `#` ou `'`
-          |          ├── 1.4. Exemplos de paradigmas
-          |          ├── 1.5. Regras lógicas e sintáticas
-          |          └── 1.6. Boas Práticas: Camel Case e Nomes de Variáveis
-          ├── 2.0-Variáveis/
-          │     ├── 2.1-O que é uma variável?/
-          │     ├── 2.2-Tipos de Dados em Python — Definições Claras/
-          │     │     ├── 2.2.1-Strings (detalhes que importam)/
-          │     │     ├── 2.2.2-Inteiros (int)/
-          │     │     ├── 2.2.3-Floats (float)/
-          │     │     └── 2.2.4-Booleanos (bool)/
-          │     ├── 2.3-Conversão-de-tipos/
-          │     └── 2.5-Tipos-estruturados/
-          ├── 3.0-Operadores/
-          │     ├── 3.1-Operadores-Aritméticos/
-          │     ├── 3.2-Operadores-Relacionais/
-          │     ├── 3.3-Operadores-Lógicos/
-          │     ├── 3.4-Operadores-de-Atribuição/
-          │     └── 3.5-Operadores-Binários/
-          ├── 4.0-Expressões/
-          │     ├── 4.1-Ordem, Operadores e Expressões/
-          │     ├── 4.2-Exemplo de Expressão Aritmética/
-          │     └── 4.3-Exemplo de Expressão Booleana/
-          ├── 5.0-Entrada e Saída/
-          │     ├── 5.1 – Programação Sequencial e Entrada/Saída/
-          │     ├── 5.2 - Entrada com `input()`/
-          │     └── 5.3 - Saída com `print()`/   
-          └── 6.0-Exercícios/
+    ├── modulo_1_sequencial/ (📍Você está aqui)/
+    |      ├── 0.0-Nivelamento de Conceitos/
+    |      |           ├── 0.1. Pensamento Computacional
+    |      |           ├── 0.2. Máquina de Von Neumann
+    |      |           ├── 0.3. Linguagens de Programação
+    |      |           └── 0.4. Linguagem Compilada x Interpretada
+    |      ├── 1.0-Sintaxe Básica/
+    |      |          ├── 1.1. Primeiro Código
+    |      |          ├── 1.2. Regras de Linguagens de Programação
+    |      |          ├── 1.3. Comentários com `#` ou `'`
+    |      |          ├── 1.4. Exemplos de paradigmas
+    |      |          ├── 1.5. Regras lógicas e sintáticas
+    |      |          └── 1.6. Boas Práticas: Camel Case e Nomes de Variáveis
+    |      ├── 2.0-Variáveis/
+    |      │     ├── 2.1-O que é uma variável?/
+    |      │     ├── 2.2-Tipos de Dados em Python — Definições Claras/
+    |      │     │     ├── 2.2.1-Strings (detalhes que importam)/
+    |      │     │     ├── 2.2.2-Inteiros (int)/
+    |      │     │     ├── 2.2.3-Floats (float)/
+    |      │     │     └── 2.2.4-Booleanos (bool)/
+    |      │     ├── 2.3-Conversão-de-tipos/
+    |      │     └── 2.5-Tipos-estruturados/
+    |      ├── 3.0-Operadores/
+    |      │     ├── 3.1-Operadores-Aritméticos/
+    |      │     ├── 3.2-Operadores-Relacionais/
+    |      │     ├── 3.3-Operadores-Lógicos/
+    |      │     ├── 3.4-Operadores-de-Atribuição/
+    |      │     └── 3.5-Operadores-Binários/
+    |      ├── 4.0-Expressões/
+    |      │     ├── 4.1-Ordem, Operadores e Expressões/
+    |      │     ├── 4.2-Exemplo de Expressão Aritmética/
+    |      │     └── 4.3-Exemplo de Expressão Booleana/
+    |      ├── 5.0-Entrada e Saída/
+    |      │     ├── 5.1 – Programação Sequencial e Entrada/Saída/
+    |      │     ├── 5.2 - Entrada com `input()`/
+    |      │     └── 5.3 - Saída com `print()`/   
+    |      └── 6.0-Exercícios/
+    ├── modulo_2_estruturado/
+            ├── 2.0. Conceitos elementares e a Programação Estruturada
+            |           ├── 2.2. Fluxo de Processos/
+            |           └── 2.3. Estruturas de Decisão/
+            |                    ├── 2.3.1. Decisão Simples (`if`)/
+            |                    ├── 2.3.2. Decisão Composta (`if ... else`)/
+            |                    ├── 2.3.3. Decisão Encadeada (`if ... elif ... else`)/
+            |                    ├── 2.3.4. Decisão Aninhada (`if` dentro de `if`)/ 
+            |                    └── 2.3.5. Operador Ternário/
+            ├── 3.0. Estruturas de Repetição (visão geral)/
+            └── 4.0. Funções/
 ```
