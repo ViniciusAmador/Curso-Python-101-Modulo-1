@@ -26,7 +26,7 @@ Navegue pelos diretórios do curso!! 📍
 python101/
     ├──modulo_1_sequencial/
     ├──modulo_2_estruturado/
-    ├── 2.0. Conceitos elementares e a Programação Estruturada (📍Você está aqui)/
+    |           ├── 2.0. Conceitos elementares e a Programação Estruturada
     |           ├── 2.1. O que é Programação Estruturada?/
     |           ├── 2.2. Fluxo de Processos/
     |           └── 2.3. Estruturas de Decisão/
@@ -34,7 +34,9 @@ python101/
     |                    ├── 2.3.2. Decisão Composta (`if ... else`)/
     |                    ├── 2.3.3. Decisão Encadeada (`if ... elif ... else`)/
     |                    ├── 2.3.4. Decisão Aninhada (`if` dentro de `if`)/ 
-    |                    └── 2.3.5. Operador Ternário/
+    |                    ├── 2.3.5. Operador Ternário/
+    |                    ├── 2.3.6. Revisitando Tabela Verdade/  
+    |                    └── 2.3.7. Dedução e Lógica Proposicional/ 
     ├── 3.0. Estruturas de Repetição (visão geral)/
     └── 4.0. Funções/
 ```
@@ -119,4 +121,50 @@ idade = 17
 status = "Maior de idade" if idade >= 18 else "Menor de idade"
 print(status)
 ```
+---
+### 2.3.6. Revisitando Tabela Verdade  
+
+| p     | q     | p ∧ q | p ∨ q | p → q | p ↔ q | ¬p   |
+|-------|-------|-------|-------|-------|-------|------|
+| True  | True  | True  | True  | True  | True  | False|
+| True  | False | False | True  | False | False | False|
+| False | True  | False | True  | True  | False | True |
+| False | False | False | False | True  | True  | True |
+
+---
+
+### 2.3.6. Dedução e Lógica Proposicional  
+
+Na lógica, uma **proposição** é uma sentença que pode ser verdadeira (True) ou falsa (False).  
+Exemplo:  
+- p: “5 é maior que 3” → Verdadeiro  
+- q: “10 é menor que 7” → Falso  
+
+#### Conectivos Lógicos  
+- Conjunção (AND) → `p ∧ q`  
+- Disjunção (OR) → `p ∨ q`  
+- Negação (NOT) → `¬p`  
+- Implicação → `p → q`  
+- Equivalência → `p ↔ q`  
+
+#### Quantificadores  
+- **Universal (∀)**: significa “para todo”.  
+  - `∀x ∈ ℕ, x + 0 = x`  
+- **Existencial (∃)**: significa “existe tal que”.  
+  - `∃x ∈ ℕ, x² = 25`  
+
+#### Exemplo em Python (dedução lógica):  
+```python
+idade = 20
+tem_carteira = True
+
+# p: idade >= 18
+# q: tem_carteira == True
+# p ∧ q → Pode dirigir
+if idade >= 18 and tem_carteira:
+    print("Pode dirigir")
+else:
+    print("Não pode dirigir")
+```
+
 ---
