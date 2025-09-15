@@ -60,15 +60,22 @@ python101/
     |      │     ├── 5.2 - Entrada com `input()`/
     |      │     └── 5.3 - Saída com `print()`/   
     |      └── 6.0-Exercícios/
-    ├── modulo_2_estruturado/
-            ├── 2.0. Conceitos elementares e a Programação Estruturada
-            |           ├── 2.2. Fluxo de Processos/
-            |           └── 2.3. Estruturas de Decisão/
-            |                    ├── 2.3.1. Decisão Simples (`if`)/
-            |                    ├── 2.3.2. Decisão Composta (`if ... else`)/
-            |                    ├── 2.3.3. Decisão Encadeada (`if ... elif ... else`)/
-            |                    ├── 2.3.4. Decisão Aninhada (`if` dentro de `if`)/ 
-            |                    └── 2.3.5. Operador Ternário/
-            ├── 3.0. Estruturas de Repetição (visão geral)/
-            └── 4.0. Funções/
+    ├──modulo_2_estruturado/
+    |           ├── 2.0. Conceitos elementares e a Programação Estruturada
+    |           ├── 2.1. O que é Programação Estruturada?/
+    |           ├── 2.2. Fluxo de Processos/
+    |           └── 2.3. Estruturas de Decisão/
+    |                    ├── 2.3.1. Decisão Simples (`if`)/
+    |                    ├── 2.3.2. Decisão Composta (`if ... else`)/
+    |                    ├── 2.3.3. Decisão Encadeada (`if ... elif ... else`)/
+    |                    ├── 2.3.4. Decisão Aninhada (`if` dentro de `if`)/ 
+    |                    ├── 2.3.5. Operador Ternário/
+    |                    ├── 2.3.6. Revisitando Tabela Verdade/  
+    |                    └── 2.3.7. Dedução e Lógica Proposicional/ 
+    ├── 3.0. Estruturas de Repetição (visão geral)/
+    |           ├── 3.1. Laço de Repetição For/ 
+    |           ├── 3.2. Laço de Repetiçao While/
+    |           └── 3.3. Complexidade Algoritmica em Programação Estruturada
+    ├── 4.0. Funções/
+    └── 5.0. Exercicios
 ```

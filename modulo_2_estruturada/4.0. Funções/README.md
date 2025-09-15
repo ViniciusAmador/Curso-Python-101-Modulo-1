@@ -38,7 +38,11 @@ python101/
     |                    ├── 2.3.6. Revisitando Tabela Verdade/  
     |                    └── 2.3.7. Dedução e Lógica Proposicional/ 
     ├── 3.0. Estruturas de Repetição (visão geral)/
-    └── 4.0. Funções/
+    |           ├── 3.1. Laço de Repetição For/ 
+    |           ├── 3.2. Laço de Repetiçao While/
+    |           └── 3.3. Complexidade Algoritmica em Programação Estruturada
+    ├── 4.0. Funções/
+    └── 5.0. Exercicios
 ```
 # 📘 Módulo 2: Conceitos elementares e a Programação Estruturada  
 

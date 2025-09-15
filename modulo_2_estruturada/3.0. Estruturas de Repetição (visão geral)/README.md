@@ -38,7 +38,11 @@ python101/
     |                    ├── 2.3.6. Revisitando Tabela Verdade/  
     |                    └── 2.3.7. Dedução e Lógica Proposicional/ 
     ├── 3.0. Estruturas de Repetição (visão geral)/
-    └── 4.0. Funções/
+    |           ├── 3.1. Laço de Repetição For/ 
+    |           ├── 3.2. Laço de Repetiçao While/
+    |           └── 3.3. Complexidade Algoritmica em Programação Estruturada
+    ├── 4.0. Funções/
+    └── 5.0. Exercicios
 ```
 # 📘 Módulo 2: Conceitos elementares e a Programação Estruturada  
 
@@ -61,7 +65,7 @@ for i in range(1, 6):
     print(i)
 ```
 ---
-## 🔎 Como funciona o `for` em Python?
+## 3.1. Laço de Repetição For
 O `for` em Python é um laço de **iteração**: ele percorre uma sequência de valores (como uma lista, string ou intervalo de números) e executa o bloco de código para cada valor.
 ### Estrutura da sintaxe:
 ```python
@@ -116,7 +120,7 @@ o
 n
 ```
 ---
-## 🔁 Diferença entre `for` e `while`
+## 🔁 3.2. Laço de Repetiçao While
 - O **`for`** → usado quando já sabemos **quantas vezes** queremos repetir ou temos uma sequência para percorrer.  
 - O **`while`** → usado quando a repetição depende de uma **condição lógica** que pode variar.  
 
@@ -129,48 +133,67 @@ while contador <= 5:
 ```
 ---
 
-## 4.0. Funções  
+## 3.3. Complexidade Algoritmica em Programação Estruturada 
 
-As funções são blocos de código que realizam uma tarefa específica. Elas evitam repetição e tornam o programa mais organizado.  
+A análise assintótica é o estudo do crescimento da complexidade de um algoritmo quando o tamanho da entrada aumenta.
+Ela não se preocupa com valores exatos de tempo, mas com a tendência de crescimento.
+Exemplos de ordens de complexidade:
 
-### Estrutura de uma função  
+- **O(1)** – constante.
+
+- **O(log n)** – logarítmica.
+
+- **O(n)** – linear.
+
+- **O(n²)** – quadrática.
+
+- **O(2ⁿ)** – exponencial.
+
+##  Exercícios de Algoritmos Estruturados
+### 3.3.1. Estrutura Sequencial (O(1))
 ```python
-def nome_da_função(parâmetros):
-    instruções
-    return valor_opcional
-```
-
-### Exemplos  
-
-- Função sem parâmetros:  
-```python
-def saudacao():
-    print("Olá, bem-vindo(a)!")
-```
-
-- Função com parâmetros e retorno:  
-```python
-def soma(a, b):
+import time
+def soma_constante(a, b):
     return a + b
 
-print(soma(5, 3))  # saída: 8
+inicio = time.time()
+print(soma_constante(5, 10))
+fim = time.time()
+print("Tempo de execução:", fim - inicio, "segundos")
 ```
 
-- Função com valor padrão:  
+> 🔎 Sempre executa no mesmo tempo → complexidade O(1).
+
+### 3.3.2. Estrutura de Repetição Simples (O(n))
+
 ```python
-def boas_vindas(nome="Visitante"):
-    print(f"Olá, {nome}!")
-```
+import time
+def soma_lista(n):
+    total = 0
+    for i in range(n):   # loop simples → O(n)
+        total += i
+    return total
 
-- Escopo de variáveis:  
+inicio = time.time()
+print(soma_lista(1000000))
+fim = time.time()
+print("Tempo de execução:", fim - inicio, "segundos")
+```
+### 3.3.3. Estrutura Aninhada – Loop no Loop (O(n²))
 ```python
-x = 10  # variável global
+import time
 
-def exemplo():
-    y = 5  # variável local
-    print("Dentro da função:", x, y)
+def pares(n):
+    pares = []
+    for i in range(n):          # primeiro loop
+        for j in range(n):      # loop dentro do loop
+            pares.append((i, j))
+    return pares
 
-exemplo()
-print("Fora da função:", x)
+inicio = time.time()
+print("Total de pares:", len(pares(1000)))
+fim = time.time()
+print("Tempo de execução:", fim - inicio, "segundos")
+
 ```
----
+>🔎 Cresce quadraticamente → O(n²).
