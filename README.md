@@ -78,7 +78,7 @@ python101/
         |           └── 3.3. Complexidade Algoritmica em Programação Estruturada
         ├── 4.0. Funções/
         ├── 5.0. Exercicios
-        ├── modulo_3_estruturas_de_dados/ (📍Você está aqui)/
+        ├── modulo_3_estruturas_de_dados/
         |           ├── 3.1. Listas em Python/
         |           |       ├── 3.1.1. O que são Listas?/
         |           |       ├── 3.1.2. Acessando Itens/
